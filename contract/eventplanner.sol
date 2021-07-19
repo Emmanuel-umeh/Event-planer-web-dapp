@@ -73,6 +73,7 @@ contract EventPlanner {
         mapping (string => eventLink) elink;
         mapping (address => uint) donations;
         mapping (address => uint) attendees;
+        
     }
     
     function writeEvent(
